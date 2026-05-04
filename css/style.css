@@ -33,7 +33,7 @@ textarea{
 .cabecalho{
     height: 160px;
     padding: 20px;
-    background-color:#f8f801;
+    background-color: #01f8ae;
 }
 
 .cabecalho h3{
@@ -42,7 +42,7 @@ textarea{
 }
 
 .form-container{
-    background-color: rgb(138, 10, 203);
+    background-color: rgb(7, 214, 214);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -56,7 +56,7 @@ textarea{
 
 .form-header p{
     color: #ffffff;
-    border-bottom:  2px solid  #be01f8;
+    border-bottom:  2px solid  #01f8ae;
     width: 100%;
     text-align: center;
     margin:  0 auto;
@@ -78,4 +78,39 @@ textarea{
 
 .campo-obrigatorio{
     color: red;
+}
+
+.caixaInpust{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.caixaOpcional{
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.caixaOpcional li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.btn-submit{
+    background-color: #00ffdf;
+    color: black;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: black;
+    color: #00ffdf;
+    border-color: #00ffdf;
 }
